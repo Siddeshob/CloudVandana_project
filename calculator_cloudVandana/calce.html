@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="calce.css">
+</head>
+
+<body>
+    <h2 style="position: absolute;  margin-left: 36%;margin-top: -5%; border: 2px solid black; padding: 7px;box-shadow: 5px 5px; background-color: rgb(143, 222, 186);">CALCULATOR</h2>
+    <div class="continer">
+
+        <table border="solid 2px" class="calculator" style="box-shadow: 10px 10px;">
+            <tr>
+
+                <td colspan="3"> <input type="text" class="display-box" class="c1" id="result"> </td>
+                
+                <td><button id="btn" onclick="clearScreen()">CE</button></td>
+
+            </tr>
+            <tr>
+                <td><button onclick="display('')"></button></td>
+                <td><button onclick="display('')"></button></td>
+                <td><button onclick="display('c')">C</button></td>
+                <td><button onclick="display('')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display('7')">7</button></td>
+                <td><button onclick="display('8')">8</button></td>
+                <td><button onclick="display('9')">9</button></td>
+                <td><button onclick="display('*')" id="operator">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display('4')">4</button></td>
+                <td><button onclick="display('5')">5</button></td>
+                <td><button onclick="display('6')">6</button></td>
+                <td><button onclick="display('-')" id="operator">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display('1')">1</button></td>
+                <td><button onclick="display('2')">2</button></td>
+                <td><button onclick="display('3')">3</button></td>
+                <td><button onclick="display('+')" id="operator">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display('%')" id="operator">%</button></td>
+                <td><button onclick="display('0')">0</button></td>
+                <td><button onclick="display('.')" id="operator">.</button></td>
+                <td><button onclick="calculate()" id="operator">=</button></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script type="text/javascript" src="calce.js" >
+       
+
+    </script>
+</body>
+
+</html>

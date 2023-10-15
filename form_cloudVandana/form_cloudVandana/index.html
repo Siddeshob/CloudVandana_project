@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <fieldset>
+            <legend>
+                <h1>Customer Survey Form</h1>
+            </legend>
+            <form id="survey-form">
+                <table>
+                    <tr>
+                        <td><label for="first-name">First Name</label></td>
+                        <td><input type="text" id="first-name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="last-name">Last Name</label></td>
+                        <td><input type="text" id="last-name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="date-of-birth">Date of Birth</label></td>
+                        <td><input type="date" id="date-of-birth" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="country">Country</label></td>
+                        <td>
+                            <select id="country" required>
+                                <option value="" disabled selected>Select a country</option>
+                                <option value="USA">USA</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Canada">India</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td>
+                            <input type="checkbox" id="male"> <label for="male">Male</label>
+                            <input type="checkbox" id="female"> <label for="female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="profession">Profession</label></td>
+                        <td><input type="text" id="profession" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="email" id="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobile-number">Mobile Number</label></td>
+                        <td><input type="tel" id="mobile-number" required></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn" id="submit-button">SUBMIT</button></td>
+                        <td><button class="btn" id="reset-button">RESET</button></td>
+                    </tr>
+                </table>
+            </form>
+            
+        </fieldset>
+        <center>
+             &copy;2023 Customer Survey Form. All Rights Reserved I Design by siddesha_O_B,siddeshaob2001@gmail.com
+        </center>
+       
+    </div>
+
+
+
+
+
+    <script type="text/JavaScript" src="script.js">
+    
+    </script>
+
+</body>
+
+</html>

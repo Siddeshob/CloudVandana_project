@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #74b4f8;
+}
+
+.container {
+    background-color: #b7adfe;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+fieldset{
+    border: solid 12px rgb(190, 208, 254);
+    border-radius: 7px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="radio"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b7adfe;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="text"],input[type="date"],input[type="tel"],input[type="email"],select{
+    background-color: #d2cdfc;
+    border: solid 2px beige;
+    margin-right: -20%;
+}
