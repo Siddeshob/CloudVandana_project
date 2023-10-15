@@ -32,3 +32,7 @@ reset the form while clicking on submit, first, it will check all the fields and
 validations and then a popup will appear displaying all the selected values with labels in 
 front of it. On closing the popup, the form should reset all the values. Use the following
 image for reference
+
+![image](https://github.com/Siddeshob/CloudVandana_project/assets/130699981/64b60747-018b-4ad4-98ec-ea3f9c785b87)
+
+![image](https://github.com/Siddeshob/CloudVandana_project/assets/130699981/7eabb9d8-0f68-4383-9214-55f8da1754ca)
